@@ -3,9 +3,11 @@
 
 
 @media only screen and (min-width: 360px) {
-
 .mainpage {background-image: url(../image/backgroung-2.jpg);
     background-size: cover;             
+}
+h3{
+    text-align: center;
 }
 .introduction{
     text-align: center;
@@ -25,29 +27,40 @@
 .container .refrenceOne{
     flex-basis: 50px;
 }
-.address{
-    margin: 1% auto;  
+.contact .address{ 
+       display: grid;
+       grid-auto-rows: minmax(50px, auto);
+       margin-left: 10%;
 }
-.phone{
-    margin: 1% auto;
+.contact .phone{
+    display: grid;
+    grid-auto-rows: minmax(50px, auto);
+    margin-left: 10%;
 }
-.email{
-    margin: 1% auto;
-}
-h3{
-   text-align: center;
+.contact .email{
+    display: grid;
+    grid-auto-rows: minmax(50px, auto);
+    margin-left: 10%;
 }
 .teaching li{
-     margin-left: 30px; 
+    margin-left: 30px; 
 }
 }
 
 /* For mobile phones: 411px */
 
 @media only screen and (min-width: 411px) {
-
 .mainpage {background-image: url(../image/backgroung-2.jpg); 
-    background-size: cover;    
+       background-size: cover;    
+}
+h3{
+    text-align: center;
+}
+.introduction{
+    text-align: center;
+    position: relative;
+    width:90%;
+    margin: 0 auto;
 }
 .container{
     display: flex;
@@ -60,24 +73,21 @@ h3{
 }
 .container .refrenceOne{
     flex-basis: 50px;
-}       
-.introduction{
-text-align: center;
-position: relative;
-width:90%;
-margin: 0 auto;
 }
-.address{
-        margin: 1% auto;  
+.contact .address{ 
+       display: grid;
+       grid-auto-rows: minmax(50px, auto);
+       margin-left: 10%;
 }
-.phone{
-        margin: 1% auto;
+.contact .phone{
+    display: grid;
+    grid-auto-rows: minmax(50px, auto);
+    margin-left: 10%;
 }
-.email{
-      margin: 1% auto;
-}      
-h3{
-text-align: center;
+.contact .email{
+    display: grid;
+    grid-auto-rows: minmax(50px, auto);
+    margin-left: 10%;
 }
 .teaching li{
     margin-left: 30px; 
@@ -86,9 +96,16 @@ text-align: center;
 
 /* For mobile phones: 320px */
 @media only screen and (min-width: 320px) {
-
-.mainpage{background-image: url(../image/backgroung-2.jpg);
-            background-size: cover;      
+.mainpage{background-image: url(../image/backgroung-2.jpg);              
+}
+h3{
+    text-align: center;
+}
+.introduction{
+    text-align: center;
+    position: relative;
+    width:90%;
+    margin: 0 auto;
 }
 .container{
     display: flex;
@@ -102,24 +119,20 @@ text-align: center;
 .container .refrenceOne{
     flex-basis: 50px;
 }
-.introduction{
-    text-align: center;
-    position: relative;
-    width:90%;
-    margin: 0 auto;
+.contact .address{ 
+       display: grid;
+       grid-auto-rows: minmax(50px, auto);
+       margin-left: 10%;
 }
-      
-.address{
-    margin: 1% auto;  
-    }
-.phone{
-    margin: 1% auto;
+.contact .phone{
+    display: grid;
+    grid-auto-rows: minmax(50px, auto);
+    margin-left: 10%;
 }
-.email{
-     margin: 1% auto;
-}       
-h3{
-    text-align: center;
+.contact .email{
+    display: grid;
+    grid-auto-rows: minmax(50px, auto);
+    margin-left: 10%;
 }
 .teaching li{
     margin-left: 30px; 
@@ -128,9 +141,17 @@ h3{
 
 /* For mobile phones: 375px */
 @media only screen and (min-width: 375px) {
-
 .mainpage {background-image: url(../image/backgroung-2.jpg);
     background-size:cover;  
+}
+h3{
+    text-align: center;
+}
+.introduction{
+    text-align: center;
+    position: relative;
+    width:90%;
+    margin: 0 auto;
 }
 .container{
     display: flex;
@@ -140,27 +161,24 @@ h3{
     margin: 1em 0;
     margin-top: 10%;
     margin-left: 10%;
-    }
+}
 .container .refrenceOne{
     flex-basis: 50px;
-}       
-.introduction{
-text-align: center;
-position: relative;
-width:90%;
-margin: 0 auto;
-} 
-.address{
-    margin: 1% auto;  
 }
-.phone{
-    margin: 1% auto;
+.contact .address{ 
+       display: grid;
+       grid-auto-rows: minmax(50px, auto);
+       margin-left: 10%;
 }
-.email{
-    margin: 1% auto;
-}           
-h3{
-text-align: center;
+.contact .phone{
+    display: grid;
+    grid-auto-rows: minmax(50px, auto);
+    margin-left: 10%;
+}
+.contact .email{
+    display: grid;
+    grid-auto-rows: minmax(50px, auto);
+    margin-left: 10%;
 }
 .teaching li{
     margin-left: 30px; 
@@ -173,47 +191,14 @@ text-align: center;
 .mainpage{background-image: url(../image/backgroung-2.jpg);
     background-size: cover;
 }
-.container{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    justify-content: space-around;
-    margin: 1em 0;
-    margin-top: 10%;
-    margin-left: 10%;
-}
-.container .refrenceOne{
-flex-basis: 50px;
-}        
-.introduction{
-text-align: center;
-position: relative;
-width:90%;
-margin: 0 auto;
-}
-.address{
-    display: flex;
-     margin: auto 10%;
-}
-.phone{
-    display: flex;
-    margin: auto 10%;
-}
-.email{
-    display: flex;
-    margin: auto 10%;
-    }      
 h3{
     text-align: center;
 }
-.teaching li{
-    margin-left: 30px; 
-}
-}
-/* For iPad: 1024px */
-@media only screen and (min-width: 1024px) {
-.mainpage {background-image: url(../image/backgroung-2.jpg);
-    background-size: cover;   
+.introduction{
+    text-align: center;
+    position: relative;
+    width:90%;
+    margin: 0 auto;
 }
 .container{
     display: flex;
@@ -226,24 +211,66 @@ h3{
 }
 .container .refrenceOne{
     flex-basis: 50px;
-}        
+}
+.contact .address{ 
+       display: grid;
+       grid-auto-rows: minmax(50px, auto);
+       margin-left: 10%;
+}
+.contact .phone{
+    display: grid;
+    grid-auto-rows: minmax(50px, auto);
+    margin-left: 10%;
+}
+.contact .email{
+    display: grid;
+    grid-auto-rows: minmax(50px, auto);
+    margin-left: 10%;
+}
+.teaching li{
+    margin-left: 30px; 
+}
+}
+/* For iPad: 1024px */
+@media only screen and (min-width: 1024px) {
+.mainpage {background-image: url(../image/backgroung-2.jpg);
+    background-size: cover;   
+}
+h3{
+    text-align: center;
+}
 .introduction{
     text-align: center;
     position: relative;
     width:90%;
-    margin: 30px auto;
+    margin: 0 auto;
 }
-.address{
+.container{
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: space-around;
+    margin: 1em 0;
+    margin-top: 10%;
+    margin-left: 10%;
 }
-.phone{
-    display: flex;
+.container .refrenceOne{
+    flex-basis: 50px;
 }
-.email{
-display: flex;
+.contact .address{ 
+       display: grid;
+       grid-auto-rows: minmax(50px, auto);
+       margin-left: 10%;
 }
-h3{
-text-align: center;
+.contact .phone{
+    display: grid;
+    grid-auto-rows: minmax(50px, auto);
+    margin-left: 10%;
+}
+.contact .email{
+    display: grid;
+    grid-auto-rows: minmax(50px, auto);
+    margin-left: 10%;
 }
 .teaching li{
     margin-left: 30px; 
